@@ -20,7 +20,7 @@ short_name: MarvinAI
 unix_name: MarvinAI
 incubator_name: incubator-marvin
 incubator_slash_name: incubator/marvin
-description: Apache MarvinAI is a distributed and declarative machine learning platform.
+description: Apache MarvinAI is a platform for machine learning operations (ML-Ops)
 
 download: /marvin-platform-book/ch2_toolbox_installation/overview
 
