@@ -25,22 +25,20 @@ limitations under the License.
 
 {% include JB/setup %}
 
-<br/><br/><br/>
+# Running a example engine 
+1. Clone example engine from repository
+```
+git clone https://github.com/marvin-ai/engines.git
+```
+2. Generate a new marvin engine environment for Iris species engine
+```
+workon python-toolbox-env
+marvin engine-generateenv ../engines/iris-species-engine/
+```
+3. Run the Iris species engine
+```
+workon iris-species-engine-env
+marvin engine-dryrun 
+```
 
-### {{ site.data.project.short_name }} Team Members
-
-{% if site.data.contributors %}
-<table class="table table-hover">
-    <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
-    {% for member in site.data.contributors %}
-    <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
-        <td>{{member.name}}</td>
-        <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
-        <td>{{member.role}}</td>
-        <td>{{member.org}}</td>
-    {% endfor %}
-{% endif %}
-
+For more examples: https://github.com/marvin-ai/marvin-public-engines

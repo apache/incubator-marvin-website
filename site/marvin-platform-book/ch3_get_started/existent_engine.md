@@ -25,22 +25,20 @@ limitations under the License.
 
 {% include JB/setup %}
 
-<br/><br/><br/>
+# Working in an existing engine
 
-### {{ site.data.project.short_name }} Team Members
+1. If you don't have an engine locally, clone one to your local machine
 
-{% if site.data.contributors %}
-<table class="table table-hover">
-    <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
-    {% for member in site.data.contributors %}
-    <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
-        <td>{{member.name}}</td>
-        <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
-        <td>{{member.role}}</td>
-        <td>{{member.org}}</td>
-    {% endfor %}
-{% endif %}
-
+2. On Python Toolbox environment, set VirtualEnv and get to engine's path
+```
+marvin engine-generateenv /path/to/engine/
+workon <engine_name>-env
+```
+3. Test your engine
+```
+marvin test
+```
+4. Bring up the notebook and access it from your browser
+```
+marvin notebook
+```

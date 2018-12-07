@@ -25,22 +25,8 @@ limitations under the License.
 
 {% include JB/setup %}
 
-<br/><br/><br/>
+# Overview
 
-### {{ site.data.project.short_name }} Team Members
+**Marvin** is an open source Artificial Intelligence platform that focus on helping data science team members, in an easy way, to deliver complex solutions supported by a high-scale, low-latency, language agnostic and standardized architecture while simplifying the process of exploitation and modeling.
 
-{% if site.data.contributors %}
-<table class="table table-hover">
-    <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
-    {% for member in site.data.contributors %}
-    <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
-        <td>{{member.name}}</td>
-        <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
-        <td>{{member.role}}</td>
-        <td>{{member.org}}</td>
-    {% endfor %}
-{% endif %}
-
+![](https://images-americanas.b2w.io/img/_staging/marvin/marvin.png)

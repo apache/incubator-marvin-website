@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Home
-tagline: Apache Project !
+title: engine executor
+description: engine executor
+group: nav-right
 ---
 <!--
 {% comment %}
@@ -24,6 +25,6 @@ limitations under the License.
 
 {% include JB/setup %}
 
-## Apache MarvinAI
+# Engine Executor
 
-MarvinAI is an open source Artificial Intelligence platform that focus on helping data science team members, in an easy way, to deliver complex solutions supported by a high-scale, low-latency, language agnostic and standardized architecture while simplifying the process of exploitation and modeling.
+The [engine executor](https://github.com/marvin-ai/marvin-engine-executor) is the component responsible for coordinating execution of the steps (Actions) in a Marvin engine. The engine-executor is able to communicate with engines through the gRPC protocol.

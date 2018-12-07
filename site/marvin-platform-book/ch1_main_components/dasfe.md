@@ -25,22 +25,13 @@ limitations under the License.
 
 {% include JB/setup %}
 
-<br/><br/><br/>
+# General Overview
 
-### {{ site.data.project.short_name }} Team Members
+Here are the components
 
-{% if site.data.contributors %}
-<table class="table table-hover">
-    <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
-    {% for member in site.data.contributors %}
-    <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
-        <td>{{member.name}}</td>
-        <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
-        <td>{{member.role}}</td>
-        <td>{{member.org}}</td>
-    {% endfor %}
-{% endif %}
+# DASFE
 
+The DASFE design pattern stands for Data Acquisition, Selection, Feedback and Evaluation.
+In Marvin, the DASFE pattern is represented by the image below. Each box, which we call an Action, holds code written by the user.
+
+![](https://raw.githubusercontent.com/marvin-ai/marvin-paper/master/from-exploratory-models-to-productions/fig/marvin-dase.png)

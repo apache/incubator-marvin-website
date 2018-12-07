@@ -17,34 +17,52 @@
 # Pages such as community.md use this data.
 # Please keep the list in alphabetical order.
 #
-- name: DB Tsai
-  apacheId: dbtsai
-  githubId: dbtsai
-  role: PMC
-  org: Netflix
 
-- name: Julian Hyde
-  apacheId: jhyde
-  githubId: julianhyde
-  org: Hortonworks
+- name: Daniel Martins Takabayashi
+  apacheId: taka
+  githubId: takabayashi
+  org: B2W Digital
+  role: PMC
+
+- name: Yifei Zhang
+  apacheId: yifeizhang
+  githubId: oldfly
+  org:
+  role: PMC
+
+- name: Lucas Bonatto Miguel
+  apacheId: lucasbm88
+  githubId: lucasbm88
+  org:
+  role: PMC
+
+- name: Rafael Novello
+  apacheId: rafaelnovello
+  githubId: rafaelnovello
+  org:
+  role: PMC
+
+- name: Wei Chen
+  apacheId: Wei-1
+  githubId: Wei-1
+  org: Change Healthcare
   role: Contributor
-  homepage: http://people.apache.org/~jhyde
 
 - name: Luciano Resende
   apacheId: lresende
   githubId: lresende
   org: IBM
-  role: Committer and Mentor
+  role: Mentor
 
-- name: Reynold Xin
-  apacheId: rxin
-  githubId: rxin
-  org: Databricks
-  role: Committer and Mentor
+- name: Jim Jagielski
+  apacheId: jimjag
+  githubId: jimjag
+  org:
+  role: Mentor
 
-- name: Rich Bowen
-  apacheId: rbowen
-  githubId: rbowen
+- name: William Colen
+  apacheId: wcolen
+  githubId: wcolen
   org:
   role: Mentor
 

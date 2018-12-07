@@ -25,22 +25,6 @@ limitations under the License.
 
 {% include JB/setup %}
 
-<br/><br/><br/>
+# Engine
 
-### {{ site.data.project.short_name }} Team Members
-
-{% if site.data.contributors %}
-<table class="table table-hover">
-    <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
-    {% for member in site.data.contributors %}
-    <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
-        <td>{{member.name}}</td>
-        <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
-        <td>{{member.role}}</td>
-        <td>{{member.org}}</td>
-    {% endfor %}
-{% endif %}
-
+The Engine is the Marvin application, the result of user's implementation, including code, datasets(artifacts), models, etc. We have some [engine examples on github](https://github.com/marvin-ai/marvin-public-engines) and you could install them like described in [Running an example engine](ch3_get_started/engine_examples.md)

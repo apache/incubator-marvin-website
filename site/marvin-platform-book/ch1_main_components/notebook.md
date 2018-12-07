@@ -25,22 +25,6 @@ limitations under the License.
 
 {% include JB/setup %}
 
-<br/><br/><br/>
+# Marvin Notebook Extension
 
-### {{ site.data.project.short_name }} Team Members
-
-{% if site.data.contributors %}
-<table class="table table-hover">
-    <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
-    {% for member in site.data.contributors %}
-    <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
-        <td>{{member.name}}</td>
-        <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
-        <td>{{member.role}}</td>
-        <td>{{member.org}}</td>
-    {% endfor %}
-{% endif %}
-
+In order to facilitate development of the engine, Jupyter Notebook is integrated into Toolbox. The Marvin notebook extension allows the user to write their code in Notebooks and push updates directly to the Actions.
