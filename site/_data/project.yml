@@ -22,7 +22,7 @@ incubator_name: incubator-marvin
 incubator_slash_name: incubator/marvin
 description: Apache MarvinAI is a distributed and declarative machine learning platform.
 
-download: /download
+download: /marvin-platform-book/ch2_toolbox_installation/overview
 
 dev_list: dev@marvin.apache.org
 dev_list_subscribe: dev-subscribe@marvin.apache.org
@@ -47,10 +47,10 @@ commits_list_archive_markmail:
 
 jira: MARVINAI
 
-source_repository: https://git-wip-us.apache.org/repos/asf/incubator-marvin.git
+source_repository: https://gitbox.apache.org/repos/asf/incubator-marvin.git
 source_repository_mirror: https://github.com/apache/incubator-marvin
 
-website_repository: https://git-wip-us.apache.org/repos/asf/incubator-marvin-website.git
+website_repository: https://gitbox.apache.org/repos/asf/incubator-marvin-website.git
 website_repository_mirror: https://github.com/apache/incubator-marvin-website
 
 podling: true
