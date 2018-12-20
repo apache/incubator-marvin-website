@@ -28,3 +28,6 @@ limitations under the License.
 # General Overview
 
 Here we will explain the design pattern for MARVIN AI
+
+
+[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

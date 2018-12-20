@@ -26,13 +26,13 @@ limitations under the License.
 {% include JB/setup %}
 
 # General Overview
+In this chapter we dive into the interface design detail of each component.
 
-Toolbox can be installed directly in Ubuntu(Debian) Distribution and MacOS, for other operating systems there is installation through Vagrant or Docker.
-
-* [Ubuntu (Debian) Installation](/marvin-platform-book/ch2_toolbox_installation/ubuntu)
-* [MacOS Installation](/marvin-platform-book/ch2_toolbox_installation/mac)
-* [Vagrant Installation](/marvin-platform-book/ch2_toolbox_installation/vagrant)
-* [Docker Installation](/marvin-platform-book/ch2_toolbox_installation/docker)
+* [Toolbox CLI](/marvin-platform-book/ch4_documentation/toolbox_cli)
+* [Engine CLI](/marvin-platform-book/ch4_documentation/engine_cli)
+* [Generic Rest API](/marvin-platform-book/ch4_documentation/generic_rest_api)
+* [Toolbox Common Library](/marvin-platform-book/ch4_documentation/toolbox_common_lib)
+* [Setting Environmental Params](/marvin-platform-book/ch4_documentation/setting_params)
 
 
 [BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

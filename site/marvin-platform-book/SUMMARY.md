@@ -27,6 +27,12 @@ limitations under the License.
 
 # Summary
 
+**Apache Marvin-AI** is an open source Artificial Intelligence platform that focus on helping data science team members, in an easy way, to deliver complex solutions supported by a high-scale, low-latency, language agnostic and standardized architecture while simplifying the process of exploitation and modeling.
+
+![](/assets/themes/apache/img/logo.png)
+
+# Outline
+
 * [Overview](/marvin-platform-book/README)
 * [Main Components](/marvin-platform-book/ch1_main_components/overview)
     * [DAFSE](/marvin-platform-book/ch1_main_components/dasfe)
@@ -36,14 +42,14 @@ limitations under the License.
     * [Artefacts](/marvin-platform-book/ch1_main_components/artefacts)
     * [Marvin Notebook Extension](/marvin-platform-book/ch1_main_components/notebook)
 * [Installing Marvin](/marvin-platform-book/ch2_toolbox_installation/overview)
-	* [Ubuntu (Debian) Installation](/marvin-platform-book/ch2_toolbox_installation/ubuntu)
-	* [MacOS Installation](/marvin-platform-book/ch2_toolbox_installation/mac)
-	* [Vagrant Installation](/marvin-platform-book/ch2_toolbox_installation/vagrant)
+    * [Ubuntu (Debian) Installation](/marvin-platform-book/ch2_toolbox_installation/ubuntu)
+    * [MacOS Installation](/marvin-platform-book/ch2_toolbox_installation/mac)
+    * [Vagrant Installation](/marvin-platform-book/ch2_toolbox_installation/vagrant)
     * [Docker Installation](/marvin-platform-book/ch2_toolbox_installation/docker)
 * [Get Started](/marvin-platform-book/ch3_get_started/overview)
-	* [Creating a New Engine](/marvin-platform-book/ch3_get_started/create_engine)
-	* [Working in an Existent Engine](/marvin-platform-book/ch3_get_started/existent_engine)
-	* [Running an Example Engine](/marvin-platform-book/ch3_get_started/engine_examples)
+    * [Creating a New Engine](/marvin-platform-book/ch3_get_started/create_engine)
+    * [Working in an Existent Engine](/marvin-platform-book/ch3_get_started/existent_engine)
+    * [Running an Example Engine](/marvin-platform-book/ch3_get_started/engine_examples)
         * [Iris Classification Engine](/marvin-platform-book/ch3_get_started/iris_engine)
         * [SMS Spam Detector Engine](/marvin-platform-book/ch3_get_started/sms_engine)
         * [MNIST Classifier With Keras Engine](/marvin-platform-book/ch3_get_started/mnist_engine)
