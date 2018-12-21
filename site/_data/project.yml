@@ -15,12 +15,12 @@
 #
 # Apache Project configurations
 #
-name: Apache MarvinAI
-short_name: MarvinAI
-unix_name: MarvinAI
+name: Apache Marvin-AI
+short_name: Marvin-AI
+unix_name: Marvin
 incubator_name: incubator-marvin
 incubator_slash_name: incubator/marvin
-description: Apache MarvinAI is a platform for machine learning operations (ML-Ops)
+description: Apache MarvinAI is a platform for machine learning operations (ML-Ops)!
 
 download: /marvin-platform-book/ch2_toolbox_installation/overview
 
@@ -45,7 +45,7 @@ commits_list_archive: http://mail-archives.apache.org/mod_mbox/marvin-commits/
 commits_list_archive_mailarchive: https://www.mail-archive.com/commits@marvin.apache.org/
 commits_list_archive_markmail:
 
-jira: MARVINAI
+jira: MARVIN
 
 source_repository: https://gitbox.apache.org/repos/asf/incubator-marvin.git
 source_repository_mirror: https://github.com/apache/incubator-marvin

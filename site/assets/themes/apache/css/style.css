@@ -7,7 +7,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #3071a9;
+    background-color: #00175B;
 }
 
 .navbar-brand {
@@ -17,14 +17,14 @@ body {
 }
 
 .navbar {
- background-color:#3071a9;
+ background-color:#00175B;
  border-bottom:0px;
- height: 50px;
+ height: 55px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
  color: #ffffff;
- background-color:#3071a9;
+ background-color:#00175B;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, 
@@ -55,7 +55,7 @@ body {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #265380;
-  background-color: #3071a9;
+  background-color: #00175B;
 }
 
 @media (max-width: 768px) {
@@ -310,6 +310,11 @@ body {
 
 .navbar-collapse.collapse {
     max-height: 50px;}
+
+#community .caret {
+    margin-left: 4px;
+    border-top-color: #FFF;
+}
 
 #apache .caret {
     margin-left: 4px;

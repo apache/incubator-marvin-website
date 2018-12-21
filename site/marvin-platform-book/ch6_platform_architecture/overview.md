@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Architecture
 description: Project Community Page
 group: nav-right
 ---
@@ -28,3 +28,7 @@ limitations under the License.
 # General Overview
 
 Here we will explain the design pattern for MARVIN AI
+
+----
+
+[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

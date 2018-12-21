@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Overview
 description: Project Community Page
 group: nav-right
 ---
@@ -27,6 +27,10 @@ limitations under the License.
 
 # Overview
 
-**Marvin** is an open source Artificial Intelligence platform that focus on helping data science team members, in an easy way, to deliver complex solutions supported by a high-scale, low-latency, language agnostic and standardized architecture while simplifying the process of exploitation and modeling.
+**Apache Marvin-AI** is an open source Artificial Intelligence platform that focus on helping data science team members, in an easy way, to deliver complex solutions supported by a high-scale, low-latency, language agnostic and standardized architecture while simplifying the process of exploitation and modeling.
 
-![](https://images-americanas.b2w.io/img/_staging/marvin/marvin.png)
+![](/assets/themes/apache/img/logo.png)
+
+----
+
+[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

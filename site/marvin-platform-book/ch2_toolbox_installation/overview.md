@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Installation
 description: Project Community Page
 group: nav-right
 ---
@@ -29,3 +29,11 @@ limitations under the License.
 
 Toolbox can be installed directly in Ubuntu(Debian) Distribution and MacOS, for other operating systems there is installation through Vagrant or Docker.
 
+* [Ubuntu (Debian) Installation](/marvin-platform-book/ch2_toolbox_installation/ubuntu)
+* [MacOS Installation](/marvin-platform-book/ch2_toolbox_installation/mac)
+* [Vagrant Installation](/marvin-platform-book/ch2_toolbox_installation/vagrant)
+* [Docker Installation](/marvin-platform-book/ch2_toolbox_installation/docker)
+
+----
+
+[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

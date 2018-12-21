@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Design Pattern
 description: Project Community Page
 group: nav-right
 ---
@@ -35,3 +35,7 @@ The DASFE design pattern stands for Data Acquisition, Selection, Feedback and Ev
 In Marvin, the DASFE pattern is represented by the image below. Each box, which we call an Action, holds code written by the user.
 
 ![](https://raw.githubusercontent.com/marvin-ai/marvin-paper/master/from-exploratory-models-to-productions/fig/marvin-dase.png)
+
+----
+
+* [Main Components](/marvin-platform-book/ch1_main_components/overview)

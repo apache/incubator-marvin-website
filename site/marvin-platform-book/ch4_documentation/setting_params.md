@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Interface
 description: Project Community Page
 group: nav-right
 ---
@@ -34,7 +34,7 @@ to use the argument ```params``` that is present on every engine actions.
 You may edit the file *engine.params* that is located at the root directory 
 of your engine. You must insert params as a dictionary:
 
-```
+```json
 {
     "login" : "marvin",
     "password": "123455"
@@ -53,3 +53,6 @@ those variables.
 **Notice that  if you are running your actions using an API, you may alse set params at 
 the the API body. These params will overwrite the <i>engine.params</i> file.**
 
+----
+
+* [Documentation](/marvin-platform-book/ch4_documentation/overview)

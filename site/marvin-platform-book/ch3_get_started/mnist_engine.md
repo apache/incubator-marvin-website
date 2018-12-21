@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Starter Guilde
 description: Project Community Page
 group: nav-right
 ---
@@ -28,3 +28,7 @@ limitations under the License.
 # MNIST Engine
 
 Text here
+
+----
+
+* [Get Started](/marvin-platform-book/ch3_get_started/overview)

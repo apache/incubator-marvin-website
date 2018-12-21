@@ -43,10 +43,10 @@
   role: PMC
 
 - name: Wei Chen
-  apacheId: Wei-1
+  apacheId: weichen
   githubId: Wei-1
   org: Change Healthcare
-  role: Contributor
+  role: Committer
 
 - name: Luciano Resende
   apacheId: lresende

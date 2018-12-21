@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Deploy
 description: Project Community Page
 group: nav-right
 ---
@@ -28,3 +28,9 @@ limitations under the License.
 # General Overview
 
 Here we will explain the design pattern for MARVIN AI
+
+* [Deploying Into Production](/marvin-platform-book/ch5_deploying/deploying)
+
+----
+
+[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

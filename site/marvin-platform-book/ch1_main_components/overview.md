@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Design Pattern
 description: Project Community Page
 group: nav-right
 ---
@@ -28,3 +28,14 @@ limitations under the License.
 # General Overview
 
 Here we will explain the design pattern for MARVIN AI
+
+* [DAFSE](/marvin-platform-book/ch1_main_components/dasfe)
+* [Toolbox](/marvin-platform-book/ch1_main_components/toolbox)
+* [Engine](/marvin-platform-book/ch1_main_components/engine)
+* [Engine Executor](/marvin-platform-book/ch1_main_components/engine_executor)
+* [Artefacts](/marvin-platform-book/ch1_main_components/artefacts)
+* [Marvin Notebook Extension](/marvin-platform-book/ch1_main_components/notebook)
+
+----
+
+[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)
