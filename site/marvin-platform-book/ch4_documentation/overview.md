@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Interface
 description: Project Community Page
 group: nav-right
 ---
@@ -34,5 +34,6 @@ In this chapter we dive into the interface design detail of each component.
 * [Toolbox Common Library](/marvin-platform-book/ch4_documentation/toolbox_common_lib)
 * [Setting Environmental Params](/marvin-platform-book/ch4_documentation/setting_params)
 
+----
 
 [BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

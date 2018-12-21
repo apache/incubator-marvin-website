@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Community
 description: Project Community Page
 group: nav-right
 ---
@@ -32,3 +32,7 @@ limitations under the License.
 # Roadmap
 
 # How To Contribute
+
+----
+
+* [Community](/marvin-platform-book/ch7_community/overview)

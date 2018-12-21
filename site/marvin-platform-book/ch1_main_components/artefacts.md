@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Design Pattern
 description: Project Community Page
 group: nav-right
 ---
@@ -28,3 +28,7 @@ limitations under the License.
 # Artefacts
 
 Datasets and model(s) are shared between Engine Actions, which are persisted and versioned.
+
+----
+
+* [Main Components](/marvin-platform-book/ch1_main_components/overview)

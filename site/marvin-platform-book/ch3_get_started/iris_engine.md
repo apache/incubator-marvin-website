@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Starter Guilde
 description: Project Community Page
 group: nav-right
 ---
@@ -118,3 +118,7 @@ git push origin master --follow-tags
 The default log level is set to _WARNING_. You can change the log level at runtime setting another value to one of the following environment variable: `MARVIN_IRIS_SPECIES_ENGINE_LOG_LEVEL` or `LOG_LEVEL`. The available values are _CRITICAL_, _ERROR_, _WARNING_, _INFO_ and _DEBUG_.
 
 Be careful using `LOG_LEVEL`, it may affect another lib.
+
+----
+
+* [Get Started](/marvin-platform-book/ch3_get_started/overview)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Design Pattern
 description: Project Community Page
 group: nav-right
 ---
@@ -28,3 +28,7 @@ limitations under the License.
 # Engine
 
 The Engine is the Marvin application, the result of user's implementation, including code, datasets(artifacts), models, etc. We have some [engine examples on github](https://github.com/marvin-ai/marvin-public-engines) and you could install them like described in [Running an example engine](ch3_get_started/engine_examples.md)
+
+----
+
+* [Main Components](/marvin-platform-book/ch1_main_components/overview)

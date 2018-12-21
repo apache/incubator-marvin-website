@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Interface
 description: Project Community Page
 group: nav-right
 ---
@@ -31,6 +31,7 @@ limitations under the License.
 Usage: marvin [OPTIONS] COMMAND [ARGS]
 
 Options:
+
 ```
   --debug       #Enable debug mode.
   --version     #Show the version and exit.
@@ -38,6 +39,7 @@ Options:
 ```
 
 Commands:
+
 ```
   engine-generate     #Generate a new marvin engine project.
   engine-generateenv  #Generate a new marvin engine environment.
@@ -58,3 +60,7 @@ Commands:
   test-tdd            #Watch for changes to run tests automatically.
   test-tox            #Run tests using a new virtualenv.
 ```
+
+----
+
+* [Documentation](/marvin-platform-book/ch4_documentation/overview)

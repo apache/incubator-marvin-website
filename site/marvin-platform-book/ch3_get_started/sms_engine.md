@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Starter Guilde
 description: Project Community Page
 group: nav-right
 ---
@@ -132,7 +132,9 @@ git push origin master --follow-tags
 
 ### Logging
 
-The default log level is set to _WARNING_. You can change the log level at runtime setting another value to one of the following environment variable: `MARVIN_SMS_SPAM_ENGINE_LOG_LEVEL` or `LOG_LEVEL`. The available values are _CRITICAL_, _ERROR_, _WARNING_, _INFO_ and _DEBUG_.
+The default log level is set to _WARNING_.
+You can change the log level at runtime setting another value to one of the following environment variable:
+`MARVIN_SMS_SPAM_ENGINE_LOG_LEVEL` or `LOG_LEVEL`. The available values are _CRITICAL_, _ERROR_, _WARNING_, _INFO_ and _DEBUG_.
 
 Be careful using `LOG_LEVEL`, it may affect another lib.
 
@@ -192,4 +194,6 @@ Under the hood, this engine uses Fabric to define provisioning and deployment
 process. Check the `fabfile.py` for more information. You can add new tasks or
 edit existing ones to match your provisioning and deployment pipeline.
 
+----
 
+* [Get Started](/marvin-platform-book/ch3_get_started/overview)

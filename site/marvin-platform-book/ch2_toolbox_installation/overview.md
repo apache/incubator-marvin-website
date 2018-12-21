@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Installation
 description: Project Community Page
 group: nav-right
 ---
@@ -34,5 +34,6 @@ Toolbox can be installed directly in Ubuntu(Debian) Distribution and MacOS, for 
 * [Vagrant Installation](/marvin-platform-book/ch2_toolbox_installation/vagrant)
 * [Docker Installation](/marvin-platform-book/ch2_toolbox_installation/docker)
 
+----
 
 [BACK TO SUMMARY](/marvin-platform-book/SUMMARY)

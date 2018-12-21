@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Members
+title: Glossary
 description: Project Community Page
 group: nav-right
 ---
