@@ -45,6 +45,13 @@ running from within the directory:
 2. Open [http://localhost:4000](http://localhost:4000)
 ```
 
+## Content Auto-Generation
+
+After running the command `bundle exec jekyll serve`, website will be
+generated in the `content` folder automatically.
+
+Corresponding Setting in [Jekyll Configuration](site/_config.yml)!
+
 ## Adding contributors
 
 To add a contributor to the project, or to modify existing contributors,
