@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Version
+title: Community
 description: Project Community Page
 group: nav-right
 ---
@@ -25,10 +25,31 @@ limitations under the License.
 
 {% include JB/setup %}
 
-# Version Overview
+# Committer Notes
 
-Here we will explain the design pattern for MARVIN AI
+## How To Merge Pull Requests
+
+ref: https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=65865114
+
+The following example is merging Pull-Request-9 to develop branch.
+
+```bash
+# Project Setup from Gitbox
+git clone https://gitbox.apache.org/repos/asf/incubator-marvin.git
+cd incubator-marvin
+git remote add mirror https://github.com/apache/incubator-marvin.git
+
+# Update Branch
+git checkout develop
+git pull origin develop
+
+# Merge Pull Request to Gitbox
+git fetch mirror pull/9/head:pr-9
+git merge pr-9
+git push origin develop
+git branch -d pr-9
+```
 
 ----
 
-[BACK TO SUMMARY](/marvin-platform-book/SUMMARY)
+* [Community](/marvin-platform-book/ch7_community/overview)

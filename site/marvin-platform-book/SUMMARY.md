@@ -68,4 +68,5 @@ limitations under the License.
     * [Github](/marvin-platform-book/ch7_community/community#github)
     * [Roadmap](/marvin-platform-book/ch7_community/community#roadmap)
     * [How to Contribute](/marvin-platform-book/ch7_community/community#how-to-contribute)
+    * [Committer Notes](/marvin-platform-book/ch7_community/committer)
 * [Versions](/marvin-platform-book/ch8_versions/overview)
