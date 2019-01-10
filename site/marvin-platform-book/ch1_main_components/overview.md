@@ -25,7 +25,7 @@ limitations under the License.
 
 {% include JB/setup %}
 
-# General Overview
+# Design Overview
 
 Here we will explain the design pattern for MARVIN AI
 

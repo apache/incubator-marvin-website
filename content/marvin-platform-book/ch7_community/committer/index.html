@@ -4,8 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Apache Marvin-AI</title>
-    
+    <title>Community</title>
+    <meta name="description" content="Project Community Page">
     <meta name="author" content="">
 
     <!-- Enable responsive viewport -->
@@ -68,17 +68,6 @@
     </div>
 
     
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Apache Marvin-AI</h1>
-        <p>Apache MarvinAI is a platform for machine learning operations (ML-Ops)!</p>
-
-        
-        <a href="/marvin-platform-book/ch2_toolbox_installation/overview" class="btn btn-primary btn-lg bigFingerButton" role="button">Get Marvin-AI</a></p>
-        
-      </div>
-    </div>
-    
 
 
     <div class="container">
@@ -91,69 +80,34 @@
 
 -->
 
-<p><img src="/assets/themes/apache/img/logo.png" alt="" /></p>
+<h1 id="committer-notes">Committer Notes</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Branch</th>
-      <th> </th>
-      <th>Status</th>
-      <th>CodeCov</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/apache/incubator-marvin">master</a></td>
-      <td> </td>
-      <td><a href="https://travis-ci.org/apache/incubator-marvin"><img src="https://travis-ci.org/apache/incubator-marvin.svg?branch=master" alt="Build Status" /></a></td>
-      <td><a href="https://codecov.io/gh/apache/incubator-marvin"><img src="https://codecov.io/gh/apache/incubator-marvin/branch/master/graph/badge.svg" alt="Codecov" /></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/apache/incubator-marvin/tree/develop">develop</a></td>
-      <td> </td>
-      <td><a href="https://travis-ci.org/apache/incubator-marvin/branches"><img src="https://travis-ci.org/apache/incubator-marvin.svg?branch=develop" alt="Build Status" /></a></td>
-      <td><a href="https://codecov.io/gh/apache/incubator-marvin/branch/develop"><img src="https://codecov.io/gh/apache/incubator-marvin/branch/develop/graph/badge.svg" alt="Build Status" /></a></td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="how-to-merge-pull-requests">How To Merge Pull Requests</h2>
+
+<p>ref: https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=65865114</p>
+
+<p>The following example is merging Pull-Request-9 to develop branch.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Project Setup from Gitbox</span>
+git clone https://gitbox.apache.org/repos/asf/incubator-marvin.git
+<span class="nb">cd </span>incubator-marvin
+git remote add mirror https://github.com/apache/incubator-marvin.git
+
+<span class="c"># Update Branch</span>
+git checkout develop
+git pull origin develop
+
+<span class="c"># Merge Pull Request to Gitbox</span>
+git fetch mirror pull/9/head:pr-9
+git merge pr-9
+git push origin develop
+git branch <span class="nt">-d</span> pr-9
+</code></pre></div></div>
 
 <hr />
 
-<p><strong>Marvin-AI</strong> is an open source Artificial Intelligence platform that focus on helping data science team members, in an easy way, to deliver complex solutions supported by a high-scale, low-latency, language agnostic and standardized architecture while simplifying the process of exploitation and modeling.</p>
-
-<h2 id="bug-reports-and-feature-requests">Bug Reports and Feature Requests</h2>
-
 <ul>
-  <li><a href="https://issues.apache.org/jira/projects/MARVIN/issues/">Apache JIRA</a>!</li>
-</ul>
-
-<h2 id="community">Community</h2>
-
-<ul>
-  <li>
-    <p>Subscribe to the <a href="mailto:user-subscribe@marvin.apache.org">user mailing list</a>!</p>
-  </li>
-  <li>
-    <p>Subscribe to the <a href="mailto:dev-subscribe@marvin.apache.org">dev mailing list</a>!</p>
-  </li>
-</ul>
-
-<h2 id="documentation">Documentation</h2>
-
-<ul>
-  <li>Please check our <a href="/marvin-platform-book/SUMMARY">Platform Book</a>!</li>
-</ul>
-
-<h2 id="code">Code</h2>
-
-<ul>
-  <li>
-    <p><a href="https://github.com/apache/incubator-marvin">Apache Marvin-AI</a>!</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/apache/incubator-marvin-website">Apache Marvin-AI Website</a>!</p>
-  </li>
+  <li><a href="/marvin-platform-book/ch7_community/overview">Community</a></li>
 </ul>
 
   </div>

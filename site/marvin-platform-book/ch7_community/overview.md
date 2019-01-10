@@ -25,13 +25,17 @@ limitations under the License.
 
 {% include JB/setup %}
 
-# General Overview
+# Community Overview
 
 Here we will explain the design pattern for MARVIN AI
 
 * [Github](/marvin-platform-book/ch7_community/community#github)
 * [Roadmap](/marvin-platform-book/ch7_community/community#roadmap)
 * [How to Contribute](/marvin-platform-book/ch7_community/community#how-to-contribute)
+
+## Committer Notes
+
+* [How To Merge Pull Requests](/marvin-platform-book/ch7_community/committer#how-to-merge-pull-requests)
 
 ----
 

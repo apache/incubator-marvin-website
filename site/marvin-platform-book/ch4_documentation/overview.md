@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Interface
-description: Project Community Page
+description: CLI, API, Config Description Page
 group: nav-right
 ---
 <!--
@@ -25,7 +25,7 @@ limitations under the License.
 
 {% include JB/setup %}
 
-# General Overview
+# Interface Overview
 In this chapter we dive into the interface design detail of each component.
 
 * [Toolbox CLI](/marvin-platform-book/ch4_documentation/toolbox_cli)
