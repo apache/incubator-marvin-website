@@ -31,6 +31,8 @@ limitations under the License.
 
 ![](/assets/themes/apache/img/logo.png)
 
+More design information in [Architecture](/marvin-platform-book/ch6_platform_architecture/overview)!
+
 ----
 
 [BACK TO SUMMARY](/marvin-platform-book/SUMMARY)
