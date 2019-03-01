@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <title>Architecture</title>
-    <meta name="description" content="Project Community Page">
+    <meta name="description" content="Architecture">
     <meta name="author" content="">
 
     <!-- Enable responsive viewport -->
@@ -80,9 +80,69 @@
 
 -->
 
-<h1 id="general-overview">General Overview</h1>
+<h1 id="architecture">Architecture</h1>
 
-<p>Here we will explain the design pattern for MARVIN AI</p>
+<h2 id="design-goal">Design Goal</h2>
+
+<ol>
+  <li>Language Agnostic capabilities: The platform must be able to support R, Python and Scala algorithms</li>
+  <li>Parallelism capacities in many different levels (Eg. GPU, Multi-core and Multi-node)</li>
+  <li>Deploy distributed machine learning models that are able to receive high concurrent traffic and provide response in near real-time</li>
+</ol>
+
+<h2 id="platform-concept-map-high-level-integration">Platform Concept Map (High Level Integration)</h2>
+
+<p><img src="/assets/architecture/concept-map.png" alt="concept map" /></p>
+
+<hr />
+
+<h2 id="quality-attributes">Quality Attributes</h2>
+
+<p><img src="/assets/architecture/quality-attributes.png" alt="quality attributes" /></p>
+
+<hr />
+
+<h2 id="architectural-tactics">Architectural Tactics</h2>
+
+<p><img src="/assets/architecture/architectural-tactics.png" alt="architectural tactics" /></p>
+
+<hr />
+
+<h2 id="dasfe">DASFE</h2>
+
+<p><img src="/assets/architecture/dasfe.png" alt="dasfe" /></p>
+
+<p>More Detail in <a href="/marvin-platform-book/ch1_main_components/dasfe">DASFE</a></p>
+
+<hr />
+
+<h2 id="context-diagram">Context Diagram</h2>
+
+<p><img src="/assets/architecture/context-diagram.png" alt="context diagram" /></p>
+
+<hr />
+
+<h2 id="execution-flow">Execution Flow</h2>
+
+<p><img src="/assets/architecture/execution-flow.png" alt="execution flow" /></p>
+
+<hr />
+
+<h2 id="executor-and-engine">Executor and Engine</h2>
+
+<p><img src="/assets/architecture/executor-engine.png" alt="executor engine" /></p>
+
+<hr />
+
+<h2 id="cluster-admin">Cluster Admin</h2>
+
+<p><img src="/assets/architecture/cluster-admin.png" alt="cluster admin" /></p>
+
+<hr />
+
+<h2 id="deployment-diagram">Deployment Diagram</h2>
+
+<p><img src="/assets/architecture/deployment-diagram.png" alt="deployment diagram" /></p>
 
 <hr />
 
