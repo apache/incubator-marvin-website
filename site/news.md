@@ -31,6 +31,6 @@ limitations under the License.
         <th><b>Title</b></th><th><b>Date</b></th>
     {% for post in site.posts %}
     <tr>
-        <td><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></td>
+        <td><a href="https://marvin.apache.org{{post.url}}">{{ post.title }}</a></td>
         <td>{{ post.date_str }}</td>
     {% endfor %}
