@@ -39,7 +39,7 @@ workon <engine_name>-env
 3. Test your engine
 
 ```
-marvin test
+marvin
 ```
 
 4. Bring up the notebook and access it from your browser

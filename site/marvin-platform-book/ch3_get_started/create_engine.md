@@ -40,7 +40,7 @@ Respond the interactive prompt and wait for the engine environment preparation, 
 
 ```
 workon <new_engine_name>-env
-marvin test
+marvin
 ```
 
 3. For more informations

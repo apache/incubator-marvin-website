@@ -77,7 +77,7 @@ pip install marvin-python-toolbox
 6. Test the installation
 
 ```
-marvin test
+marvin
 ```
 
 7. Youtube tutorial
