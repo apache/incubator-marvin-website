@@ -27,7 +27,6 @@ limitations under the License.
 
 # Community Overview
 
-Here we will explain the design pattern for MARVIN AI
 
 * [Github](/marvin-platform-book/ch7_community/community#github)
 * [Roadmap](/marvin-platform-book/ch7_community/community#roadmap)

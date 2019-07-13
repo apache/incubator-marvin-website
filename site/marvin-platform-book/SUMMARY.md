@@ -46,7 +46,6 @@ limitations under the License.
 * [Installing Marvin](/marvin-platform-book/ch2_toolbox_installation/overview)
     * [Ubuntu (Debian) Installation](/marvin-platform-book/ch2_toolbox_installation/ubuntu)
     * [MacOS Installation](/marvin-platform-book/ch2_toolbox_installation/mac)
-    * [Vagrant Installation](/marvin-platform-book/ch2_toolbox_installation/vagrant)
     * [Docker Installation](/marvin-platform-book/ch2_toolbox_installation/docker)
 * [Get Started](/marvin-platform-book/ch3_get_started/overview)
     * [Creating a New Engine](/marvin-platform-book/ch3_get_started/create_engine)
