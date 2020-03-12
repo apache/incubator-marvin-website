@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Architecture &mdash; Apache Marvin-AI 0.0.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Community" href="community.html" />
+    <link rel="prev" title="Features" href="features.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Apache Marvin-AI
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview-marvin.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main-components.html">Main Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-marvin.html">Install Apache Marvin-AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create-engine.html">Creating a New Engine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="existing-engine.html">Working in an Existent Engine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Architecture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#platform-concept-map-high-level-integration">Platform Concept Map (High Level Integration)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quality-attributes">Quality Attributes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#for-data-scientists">For Data Scientists:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#for-administrators">For Administrators:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#for-marvin-developers">For Marvin Developers:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#architectural-tactics">Architectural Tactics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dasfe">DASFE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#context-diagram">Context Diagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#execution-flow">Execution Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#executor-and-engine">Executor and Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cluster-admin">Cluster Admin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deployment-diagram">Deployment Diagram</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apache Marvin-AI</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Architecture</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pages/architecture.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="architecture">
+<h1>Architecture<a class="headerlink" href="#architecture" title="Permalink to this headline">¶</a></h1>
+<p>In this section, we explain the architecture of Apache Marvin-AI. The platform has some specific features, such as:</p>
+<ol class="arabic simple">
+<li>Language Agnostic capabilities: The platform must be able to support R, Python and Scala algorithms</li>
+<li>Parallelism capacities in many different levels (Eg. GPU, Multi-core and Multi-node)</li>
+<li>Deploy distributed machine learning models that are able to receive high concurrent traffic and provide response in near real-time</li>
+</ol>
+<div class="section" id="platform-concept-map-high-level-integration">
+<h2>Platform Concept Map (High Level Integration)<a class="headerlink" href="#platform-concept-map-high-level-integration" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/concept-map.png" src="../_images/concept-map.png" />
+</div>
+<div class="section" id="quality-attributes">
+<h2>Quality Attributes<a class="headerlink" href="#quality-attributes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="for-data-scientists">
+<h3>For Data Scientists:<a class="headerlink" href="#for-data-scientists" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Interoperability:</strong> To support different programmer languages</li>
+<li><strong>Usability:</strong> To accelerate and simplify the model creation process</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="for-administrators">
+<h3>For Administrators:<a class="headerlink" href="#for-administrators" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Manageability:</strong> To simplify the distributed deploy/management process</li>
+<li><strong>Usability:</strong> To support from tiny to intensive loads</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="for-marvin-developers">
+<h3>For Marvin Developers:<a class="headerlink" href="#for-marvin-developers" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Modifiability:</strong> To improve and release new versions constantly</li>
+<li><strong>Maintainability:</strong> To allow all type of programmers (from beginners to experts) to contribute</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="architectural-tactics">
+<h2>Architectural Tactics<a class="headerlink" href="#architectural-tactics" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/architectural-tactics.png" src="../_images/architectural-tactics.png" />
+</div>
+<div class="section" id="dasfe">
+<h2>DASFE<a class="headerlink" href="#dasfe" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/dasfe.png" src="../_images/dasfe.png" />
+<p>More details in <a class="reference internal" href="main-components.html#dasfe"><span class="std std-ref">DASFE</span></a>.</p>
+</div>
+<div class="section" id="context-diagram">
+<h2>Context Diagram<a class="headerlink" href="#context-diagram" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/context-diagram.png" src="../_images/context-diagram.png" />
+</div>
+<div class="section" id="execution-flow">
+<h2>Execution Flow<a class="headerlink" href="#execution-flow" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/execution-flow.png" src="../_images/execution-flow.png" />
+</div>
+<div class="section" id="executor-and-engine">
+<h2>Executor and Engine<a class="headerlink" href="#executor-and-engine" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/executor-engine.png" src="../_images/executor-engine.png" />
+</div>
+<div class="section" id="cluster-admin">
+<h2>Cluster Admin<a class="headerlink" href="#cluster-admin" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/cluster-admin.png" src="../_images/cluster-admin.png" />
+</div>
+<div class="section" id="deployment-diagram">
+<h2>Deployment Diagram<a class="headerlink" href="#deployment-diagram" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/deployment-diagram.png" src="../_images/deployment-diagram.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="community.html" class="btn btn-neutral float-right" title="Community" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="features.html" class="btn btn-neutral float-left" title="Features" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

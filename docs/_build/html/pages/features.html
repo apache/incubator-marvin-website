@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Features &mdash; Apache Marvin-AI 0.0.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Architecture" href="architecture.html" />
+    <link rel="prev" title="Working in an Existent Engine" href="existing-engine.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Apache Marvin-AI
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview-marvin.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="main-components.html">Main Components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-marvin.html">Install Apache Marvin-AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create-engine.html">Creating a New Engine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="existing-engine.html">Working in an Existent Engine</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#toolbox-cli">Toolbox CLI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#engine-cli">Engine CLI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-environmental-variables">Setting Environmental Variables</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#setting-up-params">Setting up params</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#loading-params">Loading params</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#samples">Samples</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apache Marvin-AI</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Features</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/pages/features.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="features">
+<h1>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
+<p>In this section, we show and explain the features of Apache Marvin-AI.</p>
+<div class="section" id="toolbox-cli">
+<h2>Toolbox CLI<a class="headerlink" href="#toolbox-cli" title="Permalink to this headline">¶</a></h2>
+<p>Here is shown the command line interface (CLI) of the Toolbox.</p>
+<p>Usage: marvin [OPTIONS] COMMAND [ARGS]</p>
+<p>Options:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">debug</span>       <span class="c1">#Enable debug mode.</span>
+<span class="o">--</span><span class="n">version</span>     <span class="c1">#Show the version and exit.</span>
+<span class="o">--</span><span class="n">help</span>        <span class="c1">#Show this command line interface and exit.</span>
+</pre></div>
+</div>
+<p>Commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">engine</span><span class="o">-</span><span class="n">generate</span>     <span class="c1">#Generate a new marvin engine project and install...</span>
+<span class="n">engine</span><span class="o">-</span><span class="n">generateenv</span>  <span class="c1">#Generate a new marvin engine environment and install...</span>
+<span class="n">hive</span><span class="o">-</span><span class="n">dataimport</span>     <span class="c1">#Export and import data samples from a hive databse to...</span>
+<span class="n">hive</span><span class="o">-</span><span class="n">generateconf</span>   <span class="c1">#Generate default configuration file</span>
+<span class="n">hive</span><span class="o">-</span><span class="n">resetremote</span>    <span class="c1">#Drop all remote tables from informed engine on host</span>
+</pre></div>
+</div>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ marvin --help
+$ marvin --version
+$ marvin engine-generate
+$ marvin engine-generateenv .
+</pre></div>
+</div>
+</div>
+<div class="section" id="engine-cli">
+<h2>Engine CLI<a class="headerlink" href="#engine-cli" title="Permalink to this headline">¶</a></h2>
+<p>Here is shown the command line interface (CLI) of the Engine.</p>
+<p>Usage: marvin [OPTIONS] COMMAND [ARGS]</p>
+<p>Options:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">debug</span>       <span class="c1">#Enable debug mode.</span>
+<span class="o">--</span><span class="n">version</span>     <span class="c1">#Show the version and exit.</span>
+<span class="o">--</span><span class="n">help</span>        <span class="c1">#Show this command line interface and exit.</span>
+</pre></div>
+</div>
+<p>Commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">engine</span><span class="o">-</span><span class="n">deploy</span>             <span class="c1">#Engine provisioning and deployment command</span>
+<span class="n">engine</span><span class="o">-</span><span class="n">dryrun</span>             <span class="c1">#Marvin Dryrun Utility - Run marvin engines in a...</span>
+<span class="n">engine</span><span class="o">-</span><span class="n">grpcserver</span>         <span class="c1">#Marvin gRPC engine action server starts</span>
+<span class="n">engine</span><span class="o">-</span><span class="n">httpserver</span>         <span class="c1">#Marvin http api server starts</span>
+<span class="n">engine</span><span class="o">-</span><span class="n">httpserver</span><span class="o">-</span><span class="n">remote</span>  <span class="c1">#Remote HTTP server control command</span>
+<span class="n">hive</span><span class="o">-</span><span class="n">dataimport</span>           <span class="c1">#Export and import data samples from a hive...</span>
+<span class="n">hive</span><span class="o">-</span><span class="n">generateconf</span>         <span class="c1">#Generate default configuration file</span>
+<span class="n">hive</span><span class="o">-</span><span class="n">resetremote</span>          <span class="c1">#Drop all remote tables from informed engine on...</span>
+<span class="n">lab</span>                       <span class="c1">#Start the JupyterLab server.</span>
+<span class="n">notebook</span>                  <span class="c1">#Start the Jupyter notebook server.</span>
+<span class="n">pkg</span><span class="o">-</span><span class="n">bumpversion</span>           <span class="c1">#Bump the package version.</span>
+<span class="n">pkg</span><span class="o">-</span><span class="n">createtag</span>             <span class="c1">#Create git tag using the package version.</span>
+<span class="n">pkg</span><span class="o">-</span><span class="n">showchanges</span>           <span class="c1">#Show the package changelog.</span>
+<span class="n">pkg</span><span class="o">-</span><span class="n">showinfo</span>              <span class="c1">#Show information about the package.</span>
+<span class="n">pkg</span><span class="o">-</span><span class="n">showversion</span>           <span class="c1">#Show the package version.</span>
+<span class="n">pkg</span><span class="o">-</span><span class="n">updatedeps</span>            <span class="c1">#Update requirements.txt.</span>
+<span class="n">test</span>                      <span class="c1">#Run tests.</span>
+<span class="n">test</span><span class="o">-</span><span class="n">checkpep8</span>            <span class="c1">#Check python code style.</span>
+<span class="n">test</span><span class="o">-</span><span class="n">tdd</span>                  <span class="c1">#Watch for changes to run tests automatically.</span>
+<span class="n">test</span><span class="o">-</span><span class="n">tox</span>                  <span class="c1">#Run tests using a new virtualenv.</span>
+</pre></div>
+</div>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ marvin --help
+$ marvin --version
+$ marvin notebook
+$ marvin engine-dryrun
+</pre></div>
+</div>
+</div>
+<div class="section" id="setting-environmental-variables">
+<h2>Setting Environmental Variables<a class="headerlink" href="#setting-environmental-variables" title="Permalink to this headline">¶</a></h2>
+<style> .red {color:red} </style><p>To set up environmental parameters or variables on Marvin it’s recommended to use the argument <span class="red">params</span> that is present on every engine actions.</p>
+<div class="section" id="setting-up-params">
+<h3>Setting up params<a class="headerlink" href="#setting-up-params" title="Permalink to this headline">¶</a></h3>
+<p>You may edit the file <em>engine.params</em> that is located at the root directory of your engine. You must insert params as a dictionary:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;login&quot;</span> <span class="p">:</span> <span class="s2">&quot;marvin&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;password&quot;</span><span class="p">:</span> <span class="s2">&quot;123455&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="loading-params">
+<h3>Loading params<a class="headerlink" href="#loading-params" title="Permalink to this headline">¶</a></h3>
+<p>Params are loaded as an argument on your engine execution. Then, inside your code you must do <span class="red">params.get(“login”)</span> or <span class="red">params[“login”]</span> to access those variables.</p>
+</div>
+<div class="section" id="samples">
+<h3>Samples<a class="headerlink" href="#samples" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/marvin-ai/marvin-public-engines/blob/master/iris-species-engine/engine.params">Example of engine.params file</a></li>
+<li><a class="reference external" href="https://github.com/marvin-ai/marvin-public-engines/blob/master/iris-species-engine/marvin_iris_species_engine/data_handler/acquisitor_and_cleaner.py">Example of loading params on Acquisitor and Cleaner</a></li>
+</ul>
+<p><strong>Notice that if you are running your actions using an API, you may alse set params at the the API body. These params will overwrite the *engine.params* file.</strong></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="architecture.html" class="btn btn-neutral float-right" title="Architecture" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="existing-engine.html" class="btn btn-neutral float-left" title="Working in an Existent Engine" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
